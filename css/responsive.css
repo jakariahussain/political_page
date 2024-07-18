@@ -1,0 +1,384 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    /*================[Header_Top]================*/
+    .navbar-toggler {
+        margin-left: auto;
+        background: white;
+    }
+    .navbar-collapse {
+        background: #000;
+        text-align: center;
+        margin-left: -55px;
+    }
+    .navbar-nav {
+        padding: 10px 0;
+    }
+    /*================[Header]================*/
+    .Header_content h3 {
+        font-size: 30px;
+    }
+    .Header_content p {
+        text-align: justify;
+    }
+    
+    .Header_content ul {
+        display: block;
+    }
+
+    .Header_content ul li {
+        margin-bottom: 10px;
+    }
+
+    .Header_content ul li span {
+        text-align: center;
+    }
+
+    .button {
+        margin: 20px;
+    }
+    .flip-clock-wrapper {
+        width: 93%;
+        display: flex;
+        background: none; 
+        padding: 0px; 
+        margin-top: 30px;
+    }
+    .flip-clock-divider:first-child {
+        margin-left: 0px;
+    }
+    .flip-clock-divider .flip-clock-label {
+        right: -42px;
+        font-size: 16px;
+        text-align: center;
+    }
+    .flip-clock-divider.minutes .flip-clock-label {
+        right: -60px;
+    }
+    .flip-clock-divider.seconds .flip-clock-label {
+        right: -76px;
+    }
+    .flip-clock-wrapper ul li a div div.inn {
+        font-size: 52px;
+    }
+    /*================[Hero_area]================*/
+    .campaing_area {
+        margin-top: -100px;
+    }
+
+    .Mission_content {
+        margin-bottom: 10px;
+    }
+
+    .Mission_content {
+        padding: 20px 0px 40px 22px;
+    }
+
+    .Mission_content p {
+        padding: 0px 5px 0px 0;
+    }
+
+    .Mission_content_one {
+        padding: 20px 0px 40px 22px;
+    }
+
+    .Mission_content_one p {
+        padding: 0px 5px 0px 0;
+    }
+
+    /*================[About_area]================*/
+    .content_heading {
+        padding-bottom: 50px;
+    }
+
+    .content_heading h2 {
+        font-size: 27px;
+    }
+
+    .content_heading p {
+        text-align: justify;
+        padding: 0px 6px;
+    }
+
+    .about_content .button {
+        margin-bottom: 40px;
+    }
+
+    /*================[statistics_area]================*/
+    .donet_content {
+        padding: 50px 0px;
+    }
+    .donet_content img {
+        margin-bottom: 15px;
+    }
+    /*================[Lates_compaign]================*/
+    .Latest_content {
+        margin-bottom: 20px;
+    }
+
+    .Latest_content .Comments_right {
+        margin-left: 10px;
+    }
+
+    .Latest_content h2 {
+        font-size: 20px;
+    }
+
+    .update_content p {
+        font-size: 15px;
+    }
+
+    .tweet_update p {
+        padding: 0px 8px;
+    }
+
+    /*================[Information_area]================*/
+    .inside {
+        overflow: scroll;
+    }
+
+    .info {
+        margin-top: 30px;
+    }
+
+    /*================[Donation_area]================*/
+    .Donation_Content {
+        display: block;
+    }
+
+    .Donation_Content ul li {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    /*================[Conference_area]================*/
+    .Conference_Content {
+        margin-bottom: 20px;
+    }
+
+    .Conference_Content .Latest_update {
+        margin-left: 10px;
+        padding: 30px 0px 27px 0px;
+    }
+
+    .Latest_update img {
+        margin-right: 15px;
+    }
+
+    .submit input {
+        margin-left: -10px;
+        position: relative;
+        width: 100%;
+    }
+
+    .submit button {
+        right: 0;
+    }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    /*================[Header_Top]================*/
+    .navbar-toggler {
+        margin-left: auto;
+        background: white;
+    }
+
+    .navbar-nav {
+        margin-top: 10px;
+    }
+
+    .nav-item {
+        text-align: center;
+        margin: 0;
+    }
+    .navbar-collapse {
+        background: #000;
+        text-align: center;
+        margin-left: -55px;
+        padding: 10px 0;
+     }
+    .navbar-nav {
+        padding: 10px 0;
+    }
+    /*================[Header]================*/
+    .header_content {
+        margin: 50px 0 15px 0;
+    }
+
+    .Header_content ul {
+        display: flex;
+    }
+
+    .Header_content ul li {
+        margin-right: 10px;
+    }
+
+    .Header_content ul li:last-child {
+        margin-right: 0;
+    }
+    .flip-clock-wrapper {
+        width: 100%;
+        display: flex;
+    }
+    /*================[Hero_area]================*/
+    .campaing_area {
+        margin-top: -100px;
+    }
+
+    .Mission_content {
+        margin-bottom: 20px;
+    }
+
+    /*================[about_area]================*/
+    .about_area img {
+        margin-top: 30px;
+    }
+
+    /*================[statistics_area]================*/
+    .donet_content {
+        padding: 50px 0px;
+    }
+
+    /*================[Lates_compaign]================*/
+    .Latest_content .Comments_right {
+        margin-left: 0;
+    }
+
+    .Latest_content .Comments_right {
+        margin-left: 0;
+    }
+
+    .Latest_content {
+        margin-bottom: 20px;
+    }
+
+    .Latest_content ul li {
+        margin-right: 12px;
+    }
+
+    /*================[Information_area]================*/
+    .info {
+        margin-top: 30px;
+    }
+
+    /*================[Donation_area]================*/
+    .Donation_Content ul {
+        display: inherit;
+    }
+
+    .Donation_Content ul li {
+        margin: 12px 20px;
+        width: 40%;
+        display: inline-block;
+    }
+
+    /*================[Conference_area]================*/
+    .Conference_Content {
+        margin-bottom: 20px;
+    }
+
+    .tweet_update img {
+        margin-left: 5%;
+    }
+
+    /*================[Newsletter_area]================*/
+    .submit button {
+        right: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /*================[Header_Top]================*/
+    .navbar-toggler {
+        margin-left: auto;
+        background: white;
+    }
+
+    .navbar-nav {
+        margin-top: 20px;
+    }
+
+    .nav-item {
+        margin-right: 0;
+        text-align: center;
+    }
+    .navbar-collapse {
+        background: #000;
+        text-align: center;
+        margin-left: -55px;
+        padding: 10px 0;
+    }
+    .flip-clock-wrapper {
+        width: 100%;
+    }
+    .Mission_content_one {
+        padding: 70px 0px 16px 40px;
+    }
+
+    /*================[about_area]================*/
+    .about_content .button {
+        margin: 0 0 10px 0;
+    }
+
+    /*================[statistics_area]================*/
+    .donet_content {
+        padding: 50px 0px;
+    }
+
+    /*================[Lates_compaign]================*/
+    .Latest_content {
+        margin-bottom: 25px;
+    }
+
+    .Donation_Content ul li {
+        font-size: 30px;
+        margin: 0px 10px;
+        padding: 5px 30px;
+    }
+
+    /*================[Conference_area]================*/
+    .Conference_Content {
+        overflow: hidden;
+        margin-bottom: 20px;
+        min-height: 630px;
+    }
+
+    .Conference_Content a {
+        bottom: 0;
+        position: absolute;
+        left: 16px;
+        padding: 30px 30px;
+    }
+
+    .tweet_update img {
+        margin-left: 5%;
+    }
+    .blog .update_content p {
+        font-size: 15px;
+    }
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (min-width: 991px) and (max-width: 1199.98px) {
+    .tweet_update {
+        padding: 50px 0px;
+    }
+
+    .tweet_update img {
+        margin-left: 7%;
+    }
+
+    .Donation_Content ul li {
+        margin: 0px 17px;
+    }
+    .flip-clock-wrapper {
+        width: 74%;
+        padding: 36px;
+    }
+    .Latest_content .Comments_right {
+        margin-left: 11px;
+    }
+}
